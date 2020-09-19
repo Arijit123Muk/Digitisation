@@ -1,8 +1,14 @@
+import 'package:digitisation/ui/carousel.dart';
 import 'package:digitisation/ui/dashboard.dart';
 import 'package:digitisation/ui/login.dart';
 import 'package:digitisation/ui/sign_up.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:digitisation/ui/forget_password.dart';
+import 'package:digitisation/ui/profile.dart';
+import 'package:digitisation/ui/qrbarcode.dart';
+import 'package:digitisation/ui/scanner.dart';
+import 'package:digitisation/ui/splash.dart';
 
 void main() async {
   runApp(MyApp());
@@ -13,9 +19,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/sign_in',
+      initialRoute: '/splash',
+      // ignore: missing_return
       onGenerateRoute: (settings) {
         switch (settings.name) {
+          case '/splash':
+            return PageTransition(
+              child: Splash(),
+              type: PageTransitionType.leftToRight,
+              settings: settings,
+            );
+            break;
           case '/sign_in':
             return PageTransition(
               child: SignInScreen(),
@@ -30,6 +44,20 @@ class MyApp extends StatelessWidget {
               settings: settings,
             );
             break;
+          case '/forget_password':
+            return PageTransition(
+              child: Forget_Password(),
+              type: PageTransitionType.leftToRight,
+              settings: settings,
+            );
+            break;
+          case '/carousel':
+            return PageTransition(
+              child: IntroScreen(),
+              type: PageTransitionType.leftToRight,
+              settings: settings,
+            );
+            break;
 
           //  <<============================ Main App =====================>>
 
@@ -40,8 +68,27 @@ class MyApp extends StatelessWidget {
               settings: settings,
             );
             break;
-          default:
-            return null;
+          case '/pdf_scanner':
+            return PageTransition(
+              child: Scanner(),
+              type: PageTransitionType.rightToLeft,
+              settings: settings,
+            );
+            break;
+          case '/qrbarcode':
+            return PageTransition(
+              child: QRandBARCode(),
+              type: PageTransitionType.rightToLeft,
+              settings: settings,
+            );
+            break;
+          case '/profile':
+            return PageTransition(
+              child: Profile(),
+              type: PageTransitionType.rightToLeft,
+              settings: settings,
+            );
+            break;
         }
       },
     );

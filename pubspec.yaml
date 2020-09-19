@@ -27,6 +27,7 @@ dependencies:
   custom_dialog: any
   curved_navigation_bar: any
   page_transition: any
+  intro_slider: any
 
 
 

@@ -291,28 +291,57 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Demo ##
-<a href=" ">
-         <img alt="Qries" src=" "
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Splash%20Screen.jpg"
          width=300" height="500">
                                 
-<a href="https://github.com/Arijit123Muk/FunGaming/tree/master/ScreenShot">
-         <img alt="Qries" src=" "
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Login.jpg"
          width=300" height="500">                
-<a href=" ">
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src=" "
          width=300" height="500">
          
-<a href=" ">
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Forget%20Password.jpg"
+         width=300" height="500">
+                                
+                                
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Create%20Account.jpg"
+         width=300" height="500">
+                                
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Dashboard.jpg"
+         width=300" height="500">                
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src=" "
+         width=300" height="500">
+         
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Doc.gif"
+         width=300" height="500">
+                                
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Photo%20OCR.gif"
+         width=300" height="500">
+                               
+ <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/QR.gif"
+         width=300" height="500">
+                                
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Photo%20OCR.gif"
+         width=300" height="500">
+<a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Bar%20Code.gif"
          width=300" height="500">
          
 For more screenshot open folder Screenshots </a>
 
 ## Conclusion
 
-I will be happy to answer any questions that you may have on this approach, and if you want to lend a hand with the boilerplate then please feel free to submit an issue and/or pull request 🙂
 
-Again to note, this is example can appear as over-architectured for what it is - but it is an example only. If you liked my work, don’t forget to ⭐ star the repo to show your support.
 
 
 

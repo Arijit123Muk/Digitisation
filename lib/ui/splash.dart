@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:digitisation/services/auth.dart';
 import 'package:flutter/material.dart';
 
 class Splash extends StatefulWidget {
@@ -12,7 +13,6 @@ class _SplashState extends State<Splash> {
     super.initState();
     getUser();
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,20 +20,20 @@ class _SplashState extends State<Splash> {
       body: SafeArea(
         child: Center(
           child: Container(
-            child: Image.asset(
-              'assets/images/logo.PNG',
-              fit: BoxFit.fill,
-            ),
+            child:Image.asset('assets/images/logo.PNG',fit: BoxFit.fill,) ,
           ),
         ),
       ),
     );
   }
 
-  void getUser() async {
-    Timer(
-        Duration(seconds: 2),
-        () => Navigator.pushNamedAndRemoveUntil(
-            context, '/sign_in', (route) => false));
+  void getUser() async{
+    bool verify = await UserAuth();
+    if(verify)
+      Timer(Duration(seconds: 2), () => Navigator.pushNamedAndRemoveUntil(context, '/dashboard', (route) => false));
+
+    else
+      Timer(Duration(seconds: 2), () => Navigator.pushNamedAndRemoveUntil(context, '/sign_in', (route) => false));
   }
+
 }

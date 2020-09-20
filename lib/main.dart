@@ -1,16 +1,23 @@
 import 'package:digitisation/ui/carousel.dart';
 import 'package:digitisation/ui/dashboard.dart';
-import 'package:digitisation/ui/login.dart';
-import 'package:digitisation/ui/sign_up.dart';
-import 'package:flutter/material.dart';
-import 'package:page_transition/page_transition.dart';
 import 'package:digitisation/ui/forget_password.dart';
+import 'package:digitisation/ui/login.dart';
+import 'package:digitisation/ui/photo_ocr_ui.dart';
 import 'package:digitisation/ui/profile.dart';
 import 'package:digitisation/ui/qrbarcode.dart';
 import 'package:digitisation/ui/scanner.dart';
+import 'package:digitisation/ui/sign_up.dart';
 import 'package:digitisation/ui/splash.dart';
+import 'package:flutter/material.dart';
+import 'package:page_transition/page_transition.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_genius_scan/flutter_genius_scan.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  FlutterGeniusScan.setLicenceKey(
+      '533c50065455000505550151395550071706514a57591c5d0b515d125e4b51440b5b0a3d09030604550406005a50');
   runApp(MyApp());
 }
 
@@ -20,7 +27,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '/splash',
-      // ignore: missing_return
       onGenerateRoute: (settings) {
         switch (settings.name) {
           case '/splash':
@@ -89,6 +95,15 @@ class MyApp extends StatelessWidget {
               settings: settings,
             );
             break;
+          case '/photoocr':
+            return PageTransition(
+              child: PhotoOCR(),
+              type: PageTransitionType.leftToRight,
+              settings: settings,
+            );
+            break;
+          default:
+            return null;
         }
       },
     );

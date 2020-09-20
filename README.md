@@ -2,7 +2,7 @@
 
 <a href="">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/assets/images/logo.PNG"
-         width=1000" height="600">
+         width=1000" height="600"></a>
 
 
 * It can Scan pages convert them in pdfs
@@ -304,9 +304,10 @@ class MyApp extends StatelessWidget {
                                 
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Login.jpg"
-         width=300" height="500">                
+         width=300" height="500">  
+                                
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
-         <img alt="Qries" src=" "
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Carousel.gif"
          width=300" height="500">
  </p>
   
@@ -359,6 +360,7 @@ We are will be happy to answer any questions that you may have on this app,🙂
 
 This app is a very powerful tool for scanning documents, bar code, QR code, and recognising text.
 
-<p style="text-align:right;"><b> Team Vector Hunters </b></p>
+<p style="text-align:right;"><b>Team Vector Hunters.</b></p>
+
 
 

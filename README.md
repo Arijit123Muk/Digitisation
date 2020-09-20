@@ -315,7 +315,7 @@ class MyApp extends StatelessWidget {
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Dashboard.jpg"
          width=300" height="500">                
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
-         <img alt="Qries" src=" "
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Profile.jpg"
          width=300" height="500">
          
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">

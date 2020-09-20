@@ -1,4 +1,10 @@
 # Digitisation
+
+<a href="">
+         <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/assets/images/logo.PNG"
+         width=1000" height="600">
+
+
 * It can Scan pages convert them in pdfs
 * It can Scan handwritten text
 * It can Scan Bar code as well as 
@@ -291,6 +297,7 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Demo ##
+<p>
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Splash%20Screen.jpg"
          width=300" height="500">
@@ -301,7 +308,9 @@ class MyApp extends StatelessWidget {
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src=" "
          width=300" height="500">
-         
+ </p>
+  
+ <p> 
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Forget%20Password.jpg"
          width=300" height="500">
@@ -313,7 +322,10 @@ class MyApp extends StatelessWidget {
                                 
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Dashboard.jpg"
-         width=300" height="500">                
+         width=300" height="500">    
+</p>
+                                
+<p> 
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Profile.jpg"
          width=300" height="500">
@@ -325,7 +337,9 @@ class MyApp extends StatelessWidget {
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Photo%20OCR.gif"
          width=300" height="500">
-                               
+</p>
+    
+<p>
  <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/QR.gif"
          width=300" height="500">
@@ -336,12 +350,15 @@ class MyApp extends StatelessWidget {
 <a href="https://github.com/Arijit123Muk/Digitisation/tree/master/ScreenShot">
          <img alt="Qries" src="https://github.com/Arijit123Muk/Digitisation/blob/master/ScreenShot/Bar%20Code.gif"
          width=300" height="500">
-         
+</p>       
 For more screenshot open folder Screenshots </a>
 
 ## Conclusion
 
+We are will be happy to answer any questions that you may have on this app,🙂
 
+This app is a very powerful tool for scanning documents, bar code, QR code, and recognising text.
 
+<p style="text-align:right;"><b> Team Vector Hunters </b></p>
 
 

@@ -378,6 +378,5 @@ We are will be happy to answer any questions that you may have on this app,🙂
 This app is a very powerful tool for scanning documents, bar code, QR code, and recognising text.
 
 <p style="text-align:right;"><b>Team Vector Hunters.</b></p>
-
-
+#Hackathon Project
 
